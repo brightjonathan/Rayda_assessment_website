@@ -11,3 +11,8 @@ export const Dot_icon = <svg width="6" height="6" viewBox="0 0 6 6" fill="none" 
 <circle cx="3" cy="3" r="3" fill="#F79009"/>
 </svg>
 
+
+//I did not find the spacify avater from the figma design so i decided to use this avater_icon... pls accept it
+export const avatar_icon = <svg width="60" height="68" viewBox="0 0 60 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M56.6667 64V57.3333C56.6667 53.7971 55.2619 50.4057 52.7614 47.9052C50.2609 45.4048 46.8696 44 43.3333 44H16.6667C13.1305 44 9.73907 45.4048 7.23859 47.9052C4.7381 50.4057 3.33334 53.7971 3.33334 57.3333V64M43.3333 17.3333C43.3333 24.6971 37.3638 30.6667 30 30.6667C22.6362 30.6667 16.6667 24.6971 16.6667 17.3333C16.6667 9.96954 22.6362 4 30 4C37.3638 4 43.3333 9.96954 43.3333 17.3333Z" stroke="#7F56D9" stroke-width="6.66667" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

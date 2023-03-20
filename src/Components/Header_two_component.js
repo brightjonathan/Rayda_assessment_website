@@ -1,5 +1,5 @@
 import React from 'react'
-import {thumb_Icon, Dot_icon, avater_icon} from '../Components/Icons/Icons_component'
+import {thumb_Icon, Dot_icon, avatar_icon} from '../Components/Icons/Icons_component'
 
 const Header_two_component = () => {
   return (
@@ -14,13 +14,13 @@ const Header_two_component = () => {
 
                 <div>
                     <div className='absolute mt-[-50px] '>
-                   <span className=' flex items-center p-[3px] border w-[160px] h-[160px] bg-[#f9f5ff] px-2 rounded-full'> <span className='p-[30%]'> avater_icon</span> </span>
+                   <span className=' flex items-center p-[3px] border w-[160px] h-[160px] bg-[#f9f5ff] px-2 rounded-full'> <span className='p-[30%]'> {avatar_icon}</span> </span>
                 </div>
 
                 <div className='pt-2'>
                 <span className='pl-[30vh] font-semibold'>Starts in: 3 days : 2 hours : 24 minutes </span>
                 <div>
-                    <h2 className=' pl-[30vh] flex '> <span className=''> {Dot_icon} </span> <span className='text-[#B54708]'>Not Live</span> <span className=''>Layers Auction </span> </h2>
+                    <h2 className=' pl-[30vh] '> <button className='relative flex items-center  bg--transparent p-[2px] sm:p-[6px] px-2 sm:px-5 rounded'> <span className='pr-4'> {Dot_icon} </span> <span className='tracking-wide '> <span className='text-[#B54708]'>Not Live</span> Layers Auction </span> </button> </h2>
                 </div>
                 </div>
                 </div>
@@ -44,6 +44,3 @@ const Header_two_component = () => {
 }
 
 export default Header_two_component;
-
-
-{/* <h3 className=' pt-4 text-[15px] text-black pb-2 font-bold' >  Birth details </h3> */}
