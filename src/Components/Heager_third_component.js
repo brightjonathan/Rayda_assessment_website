@@ -62,7 +62,7 @@ const Heager_third_component = () => {
                         <div className='px-[3%] pt-6'>
                          <div>
                             <span className='bg-[#F2F4F7] rounded-full text-[14px] p-2 '> KO</span> &nbsp;  <span className='font-semibold'>{item.name}</span> <span className='text-[#344054]'>(Highest Bidder)</span>
-                            <p className='pt-3 font-bold'>{item.title}...</p>
+                            <p className='pt-3 font-bold text-[15px]'>{item.title}...</p>
                             <p className='pt-3 font-semibold'> Current Bid: &nbsp; <span>{item.bid}</span></p>
     
                             <hr className='border mt-2'/>
