@@ -55,7 +55,7 @@ const Heager_third_component = () => {
                 {data.data?.map((item, index) => {
                     return (
                         <div className=' bg-transparent border mx-auto pb-4 rounded-xl' key={index}>
-                        <div className=' p-4 py-2 m-3 bg-[#F2F4F7] rounded-xl'>
+                        <div className=' p-4 py-2 m-3 bg-[#F2F4F7] rounded-xl flex justify-center'>
                         <img src={item.image} alt={item.title} className='rounded-xl' />
                         </div>
          
