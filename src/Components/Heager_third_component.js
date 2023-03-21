@@ -9,13 +9,14 @@ const Heager_third_component = () => {
         axios.get('https://run.mocky.io/v3/7f02819f-8254-410a-b8af-ab98572bd26b')
           .then(response => {
             setData(response.data);
-            console.log(response.data);
+            //console.log(response.data);
           })
           .catch(error => {
             console.log(error);
           });
       }, []);
 
+      
   return (
     <div className='sm:mt-[2vh]'>
       <div className='grid grid-cols-1 gap-4 sm:grid-cols-1  lg:grid-cols-1 gap-x-6 gap-y-16 px-4 pt-10 sm:pt-10 text-black'>
@@ -55,7 +56,7 @@ const Heager_third_component = () => {
                     return (
                         <div className=' bg-transparent border mx-auto pb-4 rounded-xl' key={index}>
                         <div className=' p-4 py-2 m-3 bg-[#F2F4F7] rounded-xl'>
-                        <img src={item.image} alt={item.title} className='rounded-xl'/>
+                        <img src={item.image} alt={item.title} className='rounded-xl' />
                         </div>
          
                         <div className='px-[3%] pt-6'>
@@ -76,12 +77,6 @@ const Heager_third_component = () => {
                     )
                 })}
 
-                
-
-                
-
-        
-
             </div>
             
         </div>
@@ -95,4 +90,3 @@ const Heager_third_component = () => {
 
 export default Heager_third_component;
 
-//https://picsum.photos/400/300?random=1 //random [URL] images for testing
