@@ -41,3 +41,41 @@ font-size: 12px;
   top: 0px;
   border-radius: 10px;
 }
+
+
+
+/* media query for header_two component */ 
+@media screen and (max-width: 540px) {
+  .media_q {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .mq1 {
+  font-size: 7px;
+  }
+}
+
+
+@media screen and (max-width: 912px) {
+  .mq2 {
+  font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .mq2 {
+  display: none;
+  }
+
+  .mq1 {
+    display: none;
+    }
+
+  .mt{
+    margin-top: 15vh
+  }
+
+}
+
