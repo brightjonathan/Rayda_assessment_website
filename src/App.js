@@ -2,11 +2,14 @@ import './App.css';
 
 
 import React from 'react'
+import Header_component from './Components/Header_component';
+import Header_two_component from './Components/Header_two_component';
 
 const App = () => {
   return (
     <div>
-      <h2 className='text-3xl font-bold underline'>Hello world</h2>
+      <Header_component/>
+      <Header_two_component/>
     </div>
   )
 }
