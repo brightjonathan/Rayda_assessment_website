@@ -21,6 +21,8 @@ const Header_component = () => {
 
 </div>
 </div>
+
+<hr className='mt-6 mx-[2%]'/>
     </div>
   )
 }

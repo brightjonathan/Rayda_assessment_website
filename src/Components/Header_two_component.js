@@ -3,9 +3,9 @@ import {thumb_Icon, Dot_icon, avatar_icon} from '../Components/Icons/Icons_compo
 
 const Header_two_component = () => {
   return (
-    <div className='sm:mt-[4vh]'>
+    <div className='sm:mt-[1vh]'>
         <div className='grid grid-cols-1 gap-4 sm:grid-cols-1  lg:grid-cols-1 gap-x-6 gap-y-16 px-4 pt-10 sm:pt-10 text-black'>
-       <div className='p-4 rounded-lg shadow-2xl pb-10 mb-9 bg-white hover:bg-transparent hover:bg-slate-300 duration-500 '>
+       <div className='p-4 rounded-lg shadow-xl pb-10 mb-9 bg-white hover:bg-transparent hover:bg-slate-300 duration-500 '>
        
        <div className='mb-6'>
        <div className="slider__item slider__item-01 mt0"></div>
@@ -20,7 +20,7 @@ const Header_two_component = () => {
                 <div className='pt-2'>
                 <span className='pl-[30vh] font-semibold'>Starts in: 3 days : 2 hours : 24 minutes </span>
                 <div>
-                    <h2 className=' pl-[30vh] '> <button className='relative flex items-center  bg--transparent p-[2px] sm:p-[6px] px-2 sm:px-5 rounded'> <span className='pr-4'> {Dot_icon} </span> <span className='tracking-wide '> <span className='text-[#B54708]'>Not Live</span> Layers Auction </span> </button> </h2>
+                    <h2 className=' pl-[30vh] '> <button className='relative flex items-center  bg-transparent p-[2px] sm:p-[6px] px-2 sm:px-5 rounded'> <span className='pr-4'> {Dot_icon} </span> <span className='tracking-wide '> <span className='text-[#B54708]'>Not Live</span> Layers Auction </span> </button> </h2>
                 </div>
                 </div>
                 </div>
