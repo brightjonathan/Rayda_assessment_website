@@ -1,6 +1,6 @@
 <h4>RAYDA-FRONTEND-ASSESSMENT BY BRIGHT JONATHAN</h4>
 <hr/>
-This website application was built in ReactJs, Bootstrap and plain css.
+This website application was built in ReactJs, Tailwind css frame work.
 
 <h4> Step by step guide on how to run the application </h4>
 <ul>
