@@ -47,7 +47,7 @@ const Heager_third_component = () => {
 
         {/*  */}
 
-        <hr className='mt-6'/>
+        <hr className='mt-6 mb-6 '/>
 
         <div className='px-[2%] sm:mt-[4vh] '>
             <div className='grid grid-cols-1 gap-4 sm:grid-cols-1  lg:grid-cols-4 gap-x-6 gap-y-16'>

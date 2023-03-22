@@ -2,7 +2,7 @@ import './App.css';
 
 import Header_component from './Components/Header_component';
 import Header_two_component from './Components/Header_two_component';
-import Heager_third_component from './Components/Heager_third_component';
+import Heager_third_component from './Components/Header_third_component';
 
 const App = () => {
   return (
